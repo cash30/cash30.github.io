@@ -1,20 +1,31 @@
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Processing.JS inside Webpages: Template</title>
+    <title>game cassius made</title>
   </head>
   <body>
 <!--This draws the canvas on the webpage -->
     <canvas id="mycanvas"></canvas>
   </body>
  
+	<h1>chane zoom settings to adjust size</h1>
+<h2>play the original game @<a href = 'https://www.khanacademy.org/computer-programming/the-adventures-of-bobby/5748054332588032'>khan academy</a></h2>
   <!-- Include the processing.js library -->
   <!-- See https://khanacademy.zendesk.com/hc/en-us/articles/202260404-What-parts-of-ProcessingJS-does-Khan-Academy-support- for differences -->
   <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
   <script>
   var programCode = function(processingInstance) {
     with (processingInstance) {
-      size(400, 400);
+      size(800, 800);
       frameRate(30);
        
       // Paste code from Khan Academy here:
@@ -22,7 +33,7 @@
      
      
      
-     
+     scale(2);
       /******************************************************************************************
 the adventures of bobby.
 
@@ -47,7 +58,7 @@ var curlevel = 1;
 //there may or may not be shortcuts...
 //credit to liam k for platformer tutorial.
 //https://www.khanacademy.org/computer-programming/platformer-tutorial/4978980719378432
-frameRate(60);
+frameRate(100);
 
 
 
@@ -871,4 +882,9 @@ keyReleased = function(){
   var processingInstance = new Processing(canvas, programCode);
   </script>
 </html>
+
+
+
+
+
 
